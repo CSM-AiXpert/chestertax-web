@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.png?v=0510", type: "image/png" },
-      { url: "/favicon.ico", type: "image/x-icon" },
+      
     ],
     shortcut: "/favicon.png",
   },
@@ -53,7 +53,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/png" href="/favicon.png?v=0510" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico?v=0510" />
+        <link rel="apple-touch-icon" href="/favicon.png?v=0510" />
+        <link  />
       </head>
       <body className="antialiased">
         {children}
